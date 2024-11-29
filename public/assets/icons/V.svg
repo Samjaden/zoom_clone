@@ -1,0 +1,32 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 100 100"
+  class="logo"
+  width="100"
+  height="auto"
+>
+  <!-- Neonsight Logo with Eye -->
+  <g id="neonsight-logo">
+    <!-- Outer Eye Circle with Shadow -->
+    <circle cx="50" cy="50" r="30" fill="url(#outer-eye-gradient)" stroke="#000" stroke-width="2"/>
+    <!-- Inner Shadow for Depth -->
+    <circle cx="50" cy="50" r="30" fill="url(#inner-shadow)" />
+    <!-- Inner White Circle -->
+    <circle cx="50" cy="50" r="12" fill="#fff"/>
+    <!-- Pupil with Reflection -->
+    <circle cx="50" cy="50" r="6" fill="#000"/>
+    <circle cx="48" cy="48" r="2" fill="#fff" opacity="0.6"/>
+  </g>
+  
+  <!-- Gradients and Shadows -->
+  <defs>
+    <linearGradient id="outer-eye-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff55;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#009933;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="inner-shadow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="70%" style="stop-color:rgba(0,0,0,0);stop-opacity:0" />
+      <stop offset="100%" style="stop-color:rgba(0,0,0,0.2);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+</svg>
